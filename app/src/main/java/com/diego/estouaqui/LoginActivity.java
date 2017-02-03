@@ -14,7 +14,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        Typeface fontApresentacao = Typeface.createFromAsset(this.getAssets(),"Bairro-Regular.ttf");
+        Typeface fontApresentacao = Typeface.createFromAsset(this.getBaseContext().getAssets(),"Barrio-Regular.ttf");
 
         textApresentacao = (TextView) findViewById(R.id.NameApp);
         textApresentacao.setTypeface(fontApresentacao);
