@@ -56,28 +56,17 @@
             android:text="@string/valor_button_create"
             android:textSize="17sp"
             android:textStyle="bold"
-
             android:background="@drawable/buttonlogin"
             style="?android:attr/borderlessButtonStyle"
             android:layout_marginTop="15dp"/>
-        <LinearLayout
-            android:id="@+id/layout3"
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
-            android:layout_below="@id/layout2"
-            android:orientation="vertical"
-            android:paddingLeft="16dp"
-            android:paddingRight="16dp">
+            android:text="@string/outros"
+            android:textSize="17sp"
+            android:layout_marginTop="10dp"/>
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="@string/outros"
-                android:textSize="17sp"/>
-
-
-        </LinearLayout>
 
     </LinearLayout>
 
