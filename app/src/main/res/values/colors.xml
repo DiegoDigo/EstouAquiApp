@@ -4,4 +4,6 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="fundologin">#3F51B5</color>
+    <color name="textBranco">#ffffff</color>
+    <color name="google">#F44336</color>
 </resources>

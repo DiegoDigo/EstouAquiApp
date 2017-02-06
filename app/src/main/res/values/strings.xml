@@ -2,6 +2,6 @@
     <string name="app_name">Estou Aqui</string>
     <string name="valor_button_facebook">FaceBook</string>
     <string name="valor_button_create">Criar Conta</string>
-    <string name="outros">Outros</string>
+    <string name="google">Google</string>
 
 </resources>

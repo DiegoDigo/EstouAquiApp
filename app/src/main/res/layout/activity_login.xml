@@ -43,9 +43,21 @@
             android:layout_height="wrap_content"
             android:text="@string/valor_button_facebook"
             android:textSize="17sp"
-            android:backgroundTint="#fff"
+            android:backgroundTint="@color/textBranco"
             android:textStyle="bold"
             android:textColor="@color/fundologin"
+            android:background="@drawable/buttonlogin"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/google"
+            android:textSize="17sp"
+            android:textColor="@color/google"
+            android:textStyle="bold"
+            android:backgroundTint="@color/textBranco"
             android:background="@drawable/buttonlogin"
             style="?android:attr/borderlessButtonStyle"
             android:layout_marginTop="15dp"/>
@@ -59,15 +71,6 @@
             android:background="@drawable/buttonlogin"
             style="?android:attr/borderlessButtonStyle"
             android:layout_marginTop="15dp"/>
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/outros"
-            android:textSize="12dp"
-            style="?android:attr/borderlessButtonStyle"
-            android:layout_marginTop="10dp"/>
-
 
     </LinearLayout>
 
