@@ -13,4 +13,13 @@
     <string name="esqueceu">Esqueceu a senha ?</string>
     <string name="descricao_voltar">voltar</string>
 
+    <!--Tela Log in-->
+    <string name="text_aprecentacao_login">Bem Vindo ao Estou Aqui</string>
+    <string name="texto_usuario">Usuário</string>
+    <string name="texto_login">Log in</string>
+    <string name="text_aprecentacao_create_conta">Como deseja criar sua conta</string>
+    <string name="text_aprecentacao_create_conta">Como deseja criar sua conta</string>
+
+
+
 </resources>
