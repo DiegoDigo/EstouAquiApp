@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fundologin"
-    tools:context="com.diego.estouaqui.LoginActivity">
+    tools:context="com.diego.estouaqui.OpcoesCreateContaActivity">
 
     <RelativeLayout
         android:id="@+id/layout1"
@@ -17,7 +17,7 @@
         <TextView android:id="@+id/NameApp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/app_name"
+            android:text="@string/text_aprecentacao_create_conta"
             android:textColor="#fff"
             android:textStyle="bold"
             android:textSize="35sp"
@@ -41,7 +41,7 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/valor_button_facebook"
+            android:text="@string/text_facebook"
             android:textSize="17sp"
             android:backgroundTint="@color/textBranco"
             android:textStyle="bold"
@@ -53,8 +53,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/google"
-            android:textSize="17dp"
+            android:text="@string/text_google"
+            android:textSize="17sp"
             android:textColor="@color/google"
             android:textStyle="bold"
             android:backgroundTint="@color/textBranco"
@@ -65,8 +65,8 @@
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/valor_button_create"
-            android:textSize="17dp"
+            android:text="@string/text_create_conta"
+            android:textSize="17sp"
             android:textStyle="bold"
             android:background="@drawable/buttonlogin"
             style="?android:attr/borderlessButtonStyle"

@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
-public class LoginActivity extends AppCompatActivity {
+public class OpcoesCreateContaActivity extends AppCompatActivity {
 
     private TextView textApresentacao ;
     private Button createCount;
@@ -16,7 +16,7 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_opcoes_create_conta);
 
         Typeface fontApresentacao = Typeface.createFromAsset(this.getBaseContext().getAssets(),"Barrio-Regular.ttf");
 
