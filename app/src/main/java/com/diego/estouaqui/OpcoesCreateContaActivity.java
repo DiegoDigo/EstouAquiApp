@@ -18,7 +18,7 @@ public class OpcoesCreateContaActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_opcoes_create_conta);
 
-        Typeface fontApresentacao = Typeface.createFromAsset(this.getBaseContext().getAssets(),"Barrio-Regular.ttf");
+        Typeface fontApresentacao = Typeface.createFromAsset(this.getBaseContext().getAssets(),"MontserratAlternates-Bold.ttf");
 
         textApresentacao = (TextView) findViewById(R.id.NameApp);
         createCount = (Button) findViewById(R.id.criarConta);

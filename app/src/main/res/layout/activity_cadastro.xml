@@ -64,7 +64,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="27dp"
             android:textSize="30sp"
-            android:id="@+id/textView"/>
+            android:textColor="@color/textBranco"
+            android:id="@+id/tituloTela"/>
 
         <LinearLayout
           android:layout_width="match_parent"
@@ -77,12 +78,15 @@
               android:layout_marginTop="15dp"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="@string/text_email"/>
+              android:text="@string/text_email"
+              android:textSize="17sp"
+              android:id="@+id/txt_email"
+              android:textColor="@color/textBranco"/>
 
           <EditText
               android:layout_width="match_parent"
               android:layout_height="wrap_content"
-              android:inputType="textPersonName"
+              android:inputType="textEmailAddress"
               android:ems="10"
               android:layout_marginTop="10dp"
               android:textColor="@color/textBranco"
@@ -93,7 +97,10 @@
               android:layout_marginTop="15dp"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
-              android:text="@string/text_senha"/>
+              android:text="@string/text_senha"
+              android:id="@+id/txt_senha"
+              android:textSize="17sp"
+              android:textColor="@color/textBranco"/>
 
           <EditText
               android:layout_width="match_parent"
