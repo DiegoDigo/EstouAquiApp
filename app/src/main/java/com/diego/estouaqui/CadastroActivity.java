@@ -41,7 +41,7 @@ public class CadastroActivity extends AppCompatActivity {
         buttonDone.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), OpcoesCreateContaActivity.class);
+                Intent intent = new Intent(getBaseContext(), LoginActivity.class);
                 startActivity(intent);
                 String msg  = "Em Breve você recebera um email de confirmação";
                 msgToast(msg, Toast.LENGTH_LONG);

@@ -8,4 +8,5 @@
     <color name="textBranco">#ffffff</color>
     <color name="google">#F44336</color>
     <color name="button">#2E7D32</color>
+    <color name="buttonOpaco">#FF2E7D32</color>
 </resources>
