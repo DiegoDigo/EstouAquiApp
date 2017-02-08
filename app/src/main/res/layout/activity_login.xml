@@ -91,7 +91,7 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
             android:textColor="#fff"
-            android:backgroundTint="#2E7D32"
+            android:backgroundTint="@color/button"
             android:background="@drawable/buttonlogin"
             style="?android:attr/borderlessButtonStyle"/>
 
