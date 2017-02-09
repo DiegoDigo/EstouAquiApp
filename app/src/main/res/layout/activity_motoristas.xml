@@ -1,35 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.diego.estouaqui.views.MainActivity"
+    android:background="#EEEEEE"
     android:orientation="vertical"
-    android:background="#EEEEEE">
+    tools:context="com.diego.estouaqui.views.MainActivity">
 
-    <include layout="@layout/toolbar" android:id="@+id/toolbarMotorista"/>
+    <include
+        android:id="@+id/toolbarMotorista"
+        layout="@layout/toolbar" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/listaMotorista"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:clipToPadding="false"
-        android:elevation="0dp"
-        android:paddingBottom="80dp"
-        android:layout_below="@id/toolbarMotorista"/>
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_motorista"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_margin="18dp"
-        android:clickable="true"
-        android:src="@drawable/ic_search"
-        app:backgroundTint="@color/buttonOpaco"/>
+        android:layout_below="@id/toolbarMotorista"
+        android:clipToPadding="false" />
 
 
 </RelativeLayout>

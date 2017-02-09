@@ -1,6 +1,7 @@
 package com.diego.estouaqui.views;
 
 
+import android.content.Intent;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -67,11 +68,13 @@ public class MainActivity extends AppCompatActivity {
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getBaseContext(),"Salvo",Toast.LENGTH_LONG).show();
-                // Cria uma nova pessoa chamada Renan Teles
-                Filho filho = new Filho(3L,"teste button","teste button");
-                filhos.add(filho);
-                adapter.notifyDataSetChanged();
+//                Toast.makeText(getBaseContext(),"Salvo",Toast.LENGTH_LONG).show();
+//                // Cria uma nova pessoa chamada Renan Teles
+//                Filho filho = new Filho(3L,"teste button","teste button");
+//                filhos.add(filho);
+//                adapter.notifyDataSetChanged();
+                Intent intent = new Intent(getBaseContext(), MotoristasActivity.class);
+                startActivity(intent);
 
             }
         });
