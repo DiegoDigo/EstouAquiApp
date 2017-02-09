@@ -1,4 +1,4 @@
-package com.diego.estouaqui;
+package com.diego.estouaqui.views;
 
 import android.content.Intent;
 import android.graphics.Typeface;
@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.diego.estouaqui.R;
 
 public class CadastroActivity extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.diego.estouaqui;
+package com.diego.estouaqui.views;
 
 
 import android.support.design.widget.FloatingActionButton;
@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Toast;
 
+import com.diego.estouaqui.R;
 import com.diego.estouaqui.adapter.FilhoRecycleAdpater;
 import com.diego.estouaqui.models.Filho;
 

@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/fundologin"
-    tools:context="com.diego.estouaqui.OpcoesCreateContaActivity">
+    tools:context="com.diego.estouaqui.views.OpcoesCreateContaActivity">
 
     <RelativeLayout
         android:id="@+id/layout1"

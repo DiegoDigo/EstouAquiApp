@@ -11,7 +11,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:orientation="vertical"
     android:background="@color/fundologin"
-    tools:context="com.diego.estouaqui.CadastroActivity">
+    tools:context="com.diego.estouaqui.views.CadastroActivity">
 
 
     <RelativeLayout

@@ -16,5 +16,15 @@
         <item name="colorAccent">@color/textBranco</item>
     </style>
 
+    <style name="customRatingBar" parent="Theme.AppCompat">
+
+            <item name="colorControlNormal">@color/button</item>
+            <item name="colorControlActivated">@color/buttonOpaco</item>
+
+    </style>
+
+    <style name="customRatingBar.style" parent="android:style/Widget.Material.RatingBar.Indicator">
+
+    </style>
 
 </resources>
