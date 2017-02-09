@@ -7,16 +7,36 @@ public class Motorista {
 
     private String nome;
     private String cidade;
+    private String tipoVeiculo;
+    private int lugar;
     private float rank;
 
     public Motorista() {
 
     }
 
-    public Motorista(float rank, String nome, String cidade) {
-        this.rank = rank;
+    public Motorista(String nome, String cidade, String tipoVeiculo, int lugar, float rank) {
         this.nome = nome;
         this.cidade = cidade;
+        this.tipoVeiculo = tipoVeiculo;
+        this.lugar = lugar;
+        this.rank = rank;
+    }
+
+    public String getTipoVeiculo() {
+        return tipoVeiculo;
+    }
+
+    public void setTipoVeiculo(String tipoVeiculo) {
+        this.tipoVeiculo = tipoVeiculo;
+    }
+
+    public int getLugar() {
+        return lugar;
+    }
+
+    public void setLugar(int lugar) {
+        this.lugar = lugar;
     }
 
     public String getNome() {

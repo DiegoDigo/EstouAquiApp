@@ -23,7 +23,7 @@
 
     </style>
 
-    <style name="customRatingBar.style" parent="android:style/Widget.Material.RatingBar.Indicator">
+    <style name="customRatingBar.style" parent="android:style/Widget.Material.RatingBar.Small">
 
     </style>
 

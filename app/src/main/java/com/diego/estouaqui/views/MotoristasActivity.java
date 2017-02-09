@@ -1,8 +1,10 @@
 package com.diego.estouaqui.views;
 
+import android.content.Context;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.DefaultItemAnimator;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
@@ -29,22 +31,8 @@ public class MotoristasActivity extends AppCompatActivity {
         setContentView(R.layout.activity_motoristas);
 
         setToolBar();
-        recyclerView = (RecyclerView) findViewById(R.id.listaMotorista);
+        setRecyclerView(getBaseContext());
 
-        List<Motorista> motoristas = new ArrayList<>();
-
-        Motorista motorista  = new Motorista(2F,"Diego Domingos Delmiro","São Paulo");
-        Motorista motorista2  = new Motorista(1F,"Teste teste teste ","São Paulo - SP");
-
-        motoristas.add(motorista);
-        motoristas.add(motorista2);
-
-
-        mStaggeredGridLayoutManager = new StaggeredGridLayoutManager(1,StaggeredGridLayoutManager.VERTICAL);
-
-        adapter = new MotoristaRecycleAdapter( motoristas,getBaseContext());
-        recyclerView.setLayoutManager(mStaggeredGridLayoutManager);
-        recyclerView.setAdapter(adapter);
 
     }
     private void setToolBar() {
@@ -54,5 +42,36 @@ public class MotoristasActivity extends AppCompatActivity {
         actionBar.setHomeAsUpIndicator(R.drawable.ic_done_white);
         actionBar.setDisplayHomeAsUpEnabled(true);
 
+    }
+
+    private List<Motorista> popularTeste(){
+        List<Motorista> motoristas = new ArrayList<>();
+
+        Motorista motorista  = new Motorista("Diego Domingos Delmiro","São Paulo","Van",1,1F);
+        Motorista motorista2  = new Motorista("Teste teste teste ","São Paulo - SP","Van",2,2F);
+        Motorista motorista3  = new Motorista("Teste teste teste ","São Paulo - SP","Micro Onibus",3,3F);
+        Motorista motorista4  = new Motorista("Teste teste teste ","São Paulo - SP","Micro Onibus",4,4F);
+        Motorista motorista5  = new Motorista("Diego Teste","Sao Paulo","Van escolar",5,5F);
+
+
+        motoristas.add(motorista);
+        motoristas.add(motorista2);
+        motoristas.add(motorista3);
+        motoristas.add(motorista4);
+        motoristas.add(motorista5);
+
+        return motoristas;
+    }
+
+    private void setRecyclerView(Context c){
+        recyclerView = (RecyclerView) findViewById(R.id.listaMotorista);
+
+        mStaggeredGridLayoutManager = new StaggeredGridLayoutManager(1,StaggeredGridLayoutManager.VERTICAL);
+
+        adapter = new MotoristaRecycleAdapter( this.popularTeste(),c);
+        recyclerView.setLayoutManager(mStaggeredGridLayoutManager);
+        recyclerView.setItemAnimator(new DefaultItemAnimator());
+
+        recyclerView.setAdapter(adapter);
     }
 }

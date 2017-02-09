@@ -43,6 +43,9 @@ public class MotoristaRecycleAdapter extends RecyclerView.Adapter{
         viewHolder.cidadeMotorista.setText(motoristas.get(position).getCidade());
         viewHolder.cidadeMotorista.setTypeface(fontCidade);
         viewHolder.rankMotorista.setRating(motoristas.get(position).getRank());
+        viewHolder.tipoVeiculo.setText(motoristas.get(position).getTipoVeiculo());
+        viewHolder.tipoVeiculo.setTypeface(fontCidade);
+        viewHolder.lugar.setText(String.valueOf(motoristas.get(position).getLugar()));
 
     }
 

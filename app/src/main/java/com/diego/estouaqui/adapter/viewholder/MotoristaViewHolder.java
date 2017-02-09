@@ -14,7 +14,7 @@ import com.diego.estouaqui.R;
 
 public class MotoristaViewHolder extends RecyclerView.ViewHolder{
 
-    public TextView nomeMotorista, cidadeMotorista;
+    public TextView nomeMotorista, cidadeMotorista, tipoVeiculo, lugar;
     public RatingBar rankMotorista;
 
     public MotoristaViewHolder(View itemView) {
@@ -22,7 +22,9 @@ public class MotoristaViewHolder extends RecyclerView.ViewHolder{
         super(itemView);
         this.nomeMotorista = (TextView) itemView.findViewById(R.id.nomeMotorista);
         this.cidadeMotorista = (TextView) itemView.findViewById(R.id.cidade);
-        this.rankMotorista = (RatingBar) itemView.findViewById(R.id.ratingBar);
+        this.tipoVeiculo = (TextView) itemView.findViewById(R.id.txtTipoVeiculo);
+        this.lugar = (TextView) itemView.findViewById(R.id.lugarDiposnivel);
+        this.rankMotorista = (RatingBar) itemView.findViewById(R.id.avaliacao);
 
 
 
