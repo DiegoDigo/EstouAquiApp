@@ -14,9 +14,15 @@
     <string name="descricao_voltar">voltar</string>
 
     <!--Tela Log in-->
-    <string name="text_aprecentacao_login">Bem Vindo ao Estou Aqui</string>
+    <string name="text_aprecentacao_login">Bem Vindo ao</string>
     <string name="texto_usuario">Usuário</string>
     <string name="texto_login">Log in</string>
+    <string name="title_activity_home">HomeActivity</string>
 
+
+    <string-array name="titulos">
+        <item>Mapa</item>
+        <item>Filhos</item>
+    </string-array>
 
 </resources>

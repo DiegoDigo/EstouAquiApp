@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.diego.estouaqui.R;
-import com.diego.estouaqui.adapter.viewholder.MotoristaViewHolder;
+import com.diego.estouaqui.viewholder.MotoristaViewHolder;
 import com.diego.estouaqui.models.Motorista;
 
 import java.util.List;

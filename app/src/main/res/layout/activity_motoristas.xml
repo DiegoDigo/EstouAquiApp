@@ -8,15 +8,14 @@
     android:orientation="vertical"
     tools:context="com.diego.estouaqui.views.MainActivity">
 
-    <include
-        android:id="@+id/toolbarMotorista"
-        layout="@layout/toolbar" />
+    <!--<include-->
+        <!--android:id="@+id/toolbarMotorista"-->
+        <!--layout="@layout/toolbar" />-->
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/listaMotorista"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_below="@id/toolbarMotorista"
         android:clipToPadding="false"
         android:scrollbars="vertical"/>
 

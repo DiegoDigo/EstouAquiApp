@@ -1,4 +1,4 @@
-package com.diego.estouaqui.adapter.viewholder;
+package com.diego.estouaqui.viewholder;
 
 
 import android.support.v7.widget.RecyclerView;

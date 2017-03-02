@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 
 import com.diego.estouaqui.R;
 import com.diego.estouaqui.models.Filho;
-import com.diego.estouaqui.adapter.viewholder.FilhoViewHolger;
+import com.diego.estouaqui.viewholder.FilhoViewHolger;
 
 import java.util.List;
 

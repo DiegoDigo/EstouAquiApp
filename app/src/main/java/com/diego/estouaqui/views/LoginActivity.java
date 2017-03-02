@@ -9,6 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.diego.estouaqui.R;
+import com.diego.estouaqui.views.Home.HomeActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
@@ -45,7 +46,7 @@ public class LoginActivity extends AppCompatActivity {
         btnlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(getBaseContext(), MainActivity.class);
+                Intent intent = new Intent(getBaseContext(), HomeActivity.class);
                 startActivity(intent);
             }
         });
