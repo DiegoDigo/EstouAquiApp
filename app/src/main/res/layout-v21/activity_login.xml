@@ -54,9 +54,6 @@
             android:id="@+id/txtUser"
             android:textColor="@color/textBranco"
             android:textSize="15sp"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             android:layout_marginTop="60dp" />
 
         <EditText
@@ -65,8 +62,7 @@
             android:id="@+id/editUser"
             android:inputType="textPersonName"
             android:layout_below="@+id/txtUser"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+
             />
 
         <TextView
@@ -78,8 +74,7 @@
             android:textSize="15sp"
             android:layout_marginTop="30dp"
             android:layout_below="@+id/editUser"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
+
             />
 
         <EditText
@@ -87,8 +82,7 @@
             android:layout_height="wrap_content"
             android:inputType="numberPassword"
             android:layout_below="@+id/txtSenha"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+             />
 
         <Button
             android:layout_width="match_parent"
@@ -98,8 +92,6 @@
             android:textStyle="bold"
             android:layout_marginTop="85dp"
             android:layout_below="@+id/txtSenha"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
             android:textColor="#fff"
             android:backgroundTint="#2E7D32"
             android:background="@drawable/buttonlogin"

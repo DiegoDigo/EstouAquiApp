@@ -5,31 +5,32 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.diego.estouaqui.views.MainActivity"
+    tools:context=".views.Home.HomeActivity"
     android:orientation="vertical"
     android:background="#EEEEEE">
 
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab_fabteste"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:src="@drawable/ic_add"
+        app:backgroundTint="@color/buttonOpaco"
+        android:layout_margin="15dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/listaFilho"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:clipToPadding="false"
-        android:elevation="0dp"
         android:paddingBottom="80dp"
-        android:layout_below="@id/toolbar"/>
-
-    <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab_fabteste"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_margin="18dp"
-        android:clickable="true"
-        android:src="@drawable/ic_add"
-        app:backgroundTint="@color/buttonOpaco"/>
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 
 </RelativeLayout>
